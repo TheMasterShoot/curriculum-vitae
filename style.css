@@ -175,6 +175,16 @@ p {
     margin: 20px 0
 }
 
+.certifications .box {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0
+}
+
+.certifications .box p{
+    color: #848c90;
+}
+
 .about .box .year_company {
     min-width: 150px;
 }
@@ -182,6 +192,17 @@ p {
 .about .box .year_company h5 {
     text-transform: uppercase;
     color: #848c90;
+    font-weight: 600;
+}
+
+.about .box .study {
+    min-width: 250px;
+}
+
+.about .box .study h5 {
+    text-transform: uppercase;
+    /* color: #848c90; */
+    color: #2a7da2;
     font-weight: 600;
 }
 
@@ -235,6 +256,13 @@ p {
     color: #333;
     font-weight: 500;
     margin: 10px 0;
+}
+
+.softSkill ul li {
+    list-style: none;
+    color: #fff;
+    margin: 5px ;
+    /* margin-left: 15px; */
 }
 
 .interest ul li .fa {
