@@ -212,6 +212,12 @@ p {
     font-size: 16px;
 }
 
+.fecha {
+    color: #848c90;
+    font-weight: 600;
+    /* color: #5a9bd5; */
+  }
+
 .about p {
     text-align: justify;
 }
